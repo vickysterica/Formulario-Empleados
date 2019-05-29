@@ -29,7 +29,11 @@
 <body>
 <!--COMIENZO DE LA PARTE PHP-->
 <?php
+    if(isset($_POST["boton"])){
+        $conexion = mysqli_connect("localhost","root","","curso_php") or die ("Fallo en la conexión con la BBDD");
 
+        //CONTINUAR DESDE AQUI
+    }
 
 
 
