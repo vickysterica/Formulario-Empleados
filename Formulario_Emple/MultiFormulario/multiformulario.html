@@ -1,0 +1,21 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+	<meta charset="UTF-8">
+</head>
+<body>
+	<h1>Web de Multiformulario de empleados</h1>
+	<h2>Elige tu opción</h2>
+	<form action="ejecuta_multiformulario.php" method="POST">
+		<select name="eleccion">
+			<option value="select">Busca empleados</option>
+			<option value="update">Actualiza empleados</option>
+			<option value="delete">Borra empleados</option>
+		</select>
+		<!--<input type="radio" name="eleccion" value="select">Buscar empleados</input><br>
+		<input type="radio" name="eleccion" value="update">Actualizar empleados</input><br>
+		<input type="radio" name="eleccion" value="delete">Borrar empleados</input><br>-->
+	</form>
+	<input type="submit" name="enviar" value="Dale Ya!">
+</body>
+</html>
